@@ -1,26 +1,116 @@
-<!DOCTYPE html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<p>Try to change the names.</p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<div ng-app="myApp" ng-controller="myCtrl">
+    <title>One Direction</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-First Name: <input type="text" ng-model="firstName"><br>
-Last Name: <input type="text" ng-model="lastName"><br>
-<br>
-Full Name: {{firstName + " " + lastName}}
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Albuns
+        </a>
 
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/made-in-the-a-m.html">Made in the A.M.</a> 
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/perfect-ep.html">Perfect</a>
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/four-10.html">Four</a>
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/midnight-memories.html">Midnight Memories</a>
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/take-me-home.html">Take me Home</a>
+          <a class="dropdown-item" href="https://www.vagalume.com.br/one-direction/discografia/up-all-night-11.html">Up All Night</a>
+        </div>
+   </li>
+ <li class="nav-item">
+        <a class="nav-link" href="https://capricho.abril.com.br/famosos/25-curiosidades-sobre-os-meninos-do-one-direction/">Curiosidades</a>
+      </li>
+    </ul> 
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+    <h1>ONE DIRECTION</h1>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://i.ytimg.com/vi/Y1xs_xPb46M/maxresdefault.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://nit.pt/wp-content/uploads/2018/07/17fec12c94c052d3f89fbbd1d5e36558-754x394.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://entrepop.com.br/wp-content/uploads/2018/09/onedirection.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+<div class="jumbotron">
+  <p class="lead">One Direction (ocasionalmente abreviado por 1D) é uma boyband. Atualmente o grupo é formado por Louis Tomlinson, Harry Styles, Liam Payne e Niall Horan. A formação original incluía Zayn Malik, que anunciou sua saída oficialmente em março de 2015.</p>
+  <hr class="my-4">
+ <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+<a class="btn btn-primary btn-lg" href="https://pt.wikipedia.org/wiki/One_Direction" role="button">Saiba mais</a> 
 </div>
 
-<script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-    $scope.firstName= "John";
-    $scope.lastName= "Doe";
-});
-</script>
 
-</body>
+<h1>INTEGRANTES DA BANDA</h1>
+
+
+<div class="card-deck">
+  
+  <div class="card">
+    <img class="card-img-top" src="http://static1.purepeople.com.br/articles/3/22/03/3/@/206104-louis-tomlinson-of-one-direction-950x0-2.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Louis Tomlinson</h5>
+      <p class="card-text"></p>
+    <a href="https://pt.wikipedia.org/wiki/Louis_Tomlinson" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_UY317_CR30,0,214,317_AL_.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Harry Styles</h5>
+    <p class="card-text"></p>
+    <a href="https://pt.wikipedia.org/wiki/Harry_Styles" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+  
+  
+   <div class="card">
+    <img class="card-img-top" src="https://i.pinimg.com/originals/cc/c7/56/ccc756afb8083541c164fbd565037df3.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Liam Payne</h5>
+    <p class="card-text"></p>
+    <a href="https://pt.wikipedia.org/wiki/Liam_Payne" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="card-img-top" src="https://abrilvejasp.files.wordpress.com/2018/07/niall-horan-publicity-image-3-conor-mcdonnell.jpg?quality=70&strip=info&w=409">
+    <div class="card-body">
+      <h5 class="card-title">Niall Horan</h5>
+    <p class="card-text"></p>
+    <a href="https://pt.wikipedia.org/wiki/Niall_Horan" class="btn btn-primary">Saiba mais</a>
+    </div>
+
+</div>
+</div>
+  </body>
 </html>
